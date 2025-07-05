@@ -9,7 +9,6 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/Call2Code_Cloudflare_React",
   plugins: [
     react(),
     mode === 'development' &&
